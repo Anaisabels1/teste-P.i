@@ -19,15 +19,17 @@ html,body{
 }
 
 .bg{
-    background: url('image/bg-2.png') no-repeat;
+    background: no-repeat;
     background-size: cover;
+    background-color: #EAE0FF;
     width: 100%;
     height: auto;
 }
 
 .bg2{
-    background: url('image/bg-4.png') no-repeat;
+    background:  no-repeat;
     background-size: cover;
+    background-color: #D9C2FF;
     width: 100%;
     height: auto;
 }
@@ -59,15 +61,15 @@ html,body{
 }
 
 .color-azul{
-    color: #1B3B56;
+    color: #4a3d8a;
 }
 
 .color-azul-1{
-    color: #5271FF;
+    color: #7d6ff1;
 }
 
 .color-cinza-2{
-    color: #545454;
+    color: #6d5b8a;
 }
 
 .call{
@@ -112,7 +114,7 @@ img{
 
 button{
     padding: 10px 20px;
-    background: #1B3B56;
+    background: #553468;
     color: #fff;
     font-size: 14px;
     border: none;
@@ -123,8 +125,8 @@ button{
 }
 
 button:hover{
-    border: 1px solid #8B634A;
-    background: #8B634A;
+    border: 1px solid #7D6FF1;
+    background: #7D6FF1;
     color: #fff;
     transform: scale(1.10);
 }
@@ -153,7 +155,7 @@ button:hover{
 .line{
     width: 80%;
     height: 2px;
-    background: #17203F;
+    background: #553468;
     position: relative;
     top: 40px;
 }
@@ -166,7 +168,7 @@ button:hover{
     text-align: center;
     width: 200px;
     font-size: 18px;
-    background: #8B634A;
+    background: #7D6FF1;
     color: #fff;
 }
 
@@ -200,7 +202,7 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background:#C3BCB7;
+    background:#b9a7d0;
 }
 
 .logo{
@@ -218,7 +220,7 @@ button:hover{
     bottom: 2px;
     right: 10px;
     padding: 5px 10px;
-    background: #8B634A;
+    background: #7D6FF1;
 }
 
 body::-webkit-scrollbar {
@@ -230,10 +232,74 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color:#2B2B2B;
+    background-color:#4A3D8A;
     border-radius: 20px;
     border: 1px solid #fff;
 }
+
+/** servicos **/
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    color: #4A148C;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #333333;
+    font-size: 0.9em;
+}
+
+.container-servicos {
+    flex-direction: column;
+    margin-top: 140px;
+    margin-bottom: 100px;
+
+}
+
+.container-servicos .link-botao{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-servicos h1 {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #9F7AEA;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
 
 /* #### desktop-menu #### */
 
@@ -247,8 +313,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a{
-    color:#17203F;
-    text-shadow: 0 0 5px #848790;
+    color:#4A3D8A;
+    text-shadow: 0 0 5px #b39ddb;
     font-size: 23px;
     font-weight: 300;
     text-decoration: none;
@@ -256,8 +322,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .desktop-menu ul li a:hover{
-    color:#8B634A;
-    text-shadow: 0 0 5px #8B634A;
+    color:#7D6FF1;
+    text-shadow: 0 0 5px #7D6FF1;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -269,7 +335,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     position: absolute;
     top: 5px;
-    background: #C3BCB7;
+    background: #b9a7d0;
     display: none;
 }
 
@@ -507,14 +573,14 @@ header .right .imagem img{
 }
 
 #Contact .container .left{
-    box-shadow: 0 0 15px #848790;
+    box-shadow: 0 0 15px #b9a7d0;
     margin: 2%;
 }
 
 #Contact .container .left .box{
     width: 100%;
     height: 50vh;
-    background: #C3BCB7;
+    background: #b9a7d0;
 }
 
 #Contact .container .left .box h1{
